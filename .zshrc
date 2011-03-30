@@ -1,3 +1,4 @@
+
 alias tmux="tmux -2"
 export EDITOR=vim
 
@@ -7,6 +8,13 @@ export ZSH=$HOME/.oh-my-zsh
 # Set to the name theme to load.
 # Look in ~/.oh-my-zsh/themes/
 export ZSH_THEME="robbyrussell"
+# export ZSH_THEME="bira"
+# export ZSH_THEME="candy"
+# export ZSH_THEME="dstufft"
+# export ZSH_THEME="josh"
+# export ZSH_THEME="thomasjbradley"
+# export ZSH_THEME="xiong-chiamiov-plus"
+# export ZSH_THEME="imajes"
 
 # Set to this to use case-sensitive completion
 # export CASE_SENSITIVE="true"
@@ -24,4 +32,5 @@ plugins=(git ruby vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 
+unsetopt auto_name_dirs
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
