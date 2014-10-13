@@ -12,6 +12,7 @@
 /.ssh/*
 !.ssh/id_rsa.pub
 !.ssh/id_rsa2.pub
+!.ssh/hello_rsa.pub
 !.tmux.conf
 !Monaco+for+Powerline.otf
 !SolarizedDark.itermcolors
