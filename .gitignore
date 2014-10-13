@@ -8,6 +8,7 @@
 !.vimrc.before
 !.vimrc.after
 !/.ssh
+!/.janus
 /.ssh/*
 !.ssh/id_rsa.pub
 !.ssh/id_rsa2.pub
