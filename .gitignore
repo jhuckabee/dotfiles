@@ -5,6 +5,8 @@
 .vim/swaps
 .vim/backups
 !.vimrc
+!.vimrc.before
+!.vimrc.after
 !/.ssh
 /.ssh/*
 !.ssh/id_rsa.pub

@@ -1,0 +1,6 @@
+color solarized
+
+" Map ctrl-, to remove all trailing white space
+map <leader>w :%s/\s\+$//<CR>
+
+let NERDTreeHijackNetrw=1
