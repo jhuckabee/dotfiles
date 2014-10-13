@@ -1,15 +1,15 @@
 /*
 
 !.gitignore
-!/.vim
 .vim/.netrwhist
 .vim/swaps
 .vim/backups
 !.vimrc
-!.zshrc
-!/.oh-my-zsh
 !/.ssh
 /.ssh/*
 !.ssh/id_rsa.pub
 !.ssh/id_rsa2.pub
 !.tmux.conf
+!Monaco+for+Powerline.otf
+!SolarizedDark.itermcolors
+!.bash_profile
