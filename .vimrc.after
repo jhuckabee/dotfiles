@@ -1,6 +1,12 @@
+set background=dark
 color solarized
 
 " Map ctrl-, to remove all trailing white space
 map <leader>w :%s/\s\+$//<CR>
+
+set tags+=gems.tags
+set guioptions-=L
+set guioptions-=r
+let g:buffergator_autoexpand_on_split=0
 
 let NERDTreeHijackNetrw=1
