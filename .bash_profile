@@ -16,9 +16,6 @@ alias tmux='tmux -2'
 export RBENV_ROOT=/usr/local/opt/rbenv
 eval "$(rbenv init -)"
 
-# Setup noexec rubygem: https://github.com/joshbuddy/noexec
-RUBYOPT="-r`noexec`"
-
 # write a function to compute the current git branch
 parse_git_branch() {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
